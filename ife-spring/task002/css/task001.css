@@ -1,0 +1,54 @@
+body{
+	background-color: #F0F0F0;
+	margin: 0px;
+}
+a{
+	color: blue;
+}
+a:hover{
+	color: red;
+}
+header{
+	background-color: #CDC9C9;
+}
+header .logo{
+	float: left;
+	max-height: 48px;
+	margin: 10px  40px 3px 40px;
+}
+h1{
+	text-align: center;
+	background-color: #FF6347;
+}
+h2{
+	display: inline-block;
+	background-color: #FFA54F;
+	padding: 10px;
+}
+.title-link{
+	font-size: 20px;
+}
+.inline-a{
+	width: 2000px;
+}
+.inline{
+	display: inline-block;
+	width: 250px;
+	font-family: "微软雅黑";
+	font-weight: bold;
+	text-align: center;
+}
+form{
+	padding: 5px;
+}
+.password,.name{
+	font-weight: bold;
+}
+textarea{
+	width: 200px;
+	height: 50px;
+}
+table,tr,td{
+	border: 1px solid black;
+	font-weight: bold;
+}
