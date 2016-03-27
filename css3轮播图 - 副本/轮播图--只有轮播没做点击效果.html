@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <style>
+        div{
+            position: relative;
+            width: 600px;
+            height: 300px;
+            overflow: hidden;
+            margin: 0 auto;
+        }
+        div ul{
+            position: relative;
+            top: 0;
+            left: 0;
+            width: 400%;
+            height: 100%;
+            overflow: hidden;
+            margin: 0;
+            padding: 0;
+            animation-name: jicemoon;
+            animation-duration: 12s;
+            animation-iteration-count: infinite;
+            animation-timing-function: cubic-bezier(0,0,0.1,1);
+        }
+        @keyframes jicemoon {
+            0%{
+                left: 0%;
+            }
+            25%{
+                left: -100%;
+            }
+            50%{
+                left: -200%;
+            }
+            75%{
+                left: -300%;
+            }
+            100%{
+                left: 0%;
+            }
+        }
+        div ul li{
+            float: left;
+            height: 100%;
+            list-style: none;
+            width: 25%;
+        }
+        div ul li:nth-of-type(1){
+            background-color: #999999;
+        }
+        div ul li:nth-of-type(2){
+            background-color: #990000;
+        }
+        div ul li:nth-of-type(3){
+            background-color: #009900;
+        }
+        div ul li:nth-of-type(4){
+            background-color: #000099;
+        }
+    </style>
+</head>
+<body>
+<div class="layoutRoot">
+    <ul>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+    </ul>
+</div>
+</body>
+</html>
